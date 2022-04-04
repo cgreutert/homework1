@@ -13,4 +13,34 @@ One).
 the response variable Y and whether it is quantitative or qualitative
 (Lecture One). In the context of machine learning, this means we are
 either predicting a numerical or categorical value, regardless whether
-the inputs are qualitative or quantitative.
+the inputs are qualitative or quantitative.  
+3. Two commonly used metrics for regression ML problems are linear and
+logistic regression. Two commonly used metrics for classification
+problems are Principal Component Analysis (PCA) and k-means clustering
+(Lecture Two).  
+4. Descriptive models chooses a model that does the best job of visually
+emphasizing a data trend. One such example is graphing a line onto a
+scatter plot to see correlations (Lecture Two).  
+Inferential models main goal is to test theories by determining which
+features are most significant (Lecture Two). Furthermore, it helps test
+possible causal claims for trends in the data and “states \[the\]
+relationship between outcome and predictors (Lecture Two).  
+Predictive models is less concerned with hypothesis tests, unlike
+inferential models. The aim is to figure out what combination of
+features will help predict the response variable, Y, with minimal
+reducible error (Lecture Two).  
+5. Mechanistic-driven models assumes a parametric form for the function
+f that takes in
+*β*
+
+Assume a parametric form for f (B0+B1+…) Won’t match true unknown f Can
+add parameters= more flexibility Too many = overfitting
+
+Define mechanistic. Define empirically-driven. How do these model types
+differ? How are they similar?
+
+In general, is a mechanistic or empirically-driven model easier to
+understand? Explain your choice.
+
+Describe how the bias-variance tradeoff is related to the use of
+mechanistic or empirically-driven models
