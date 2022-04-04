@@ -32,15 +32,31 @@ reducible error (Lecture Two).
 5. Mechanistic-driven models assumes a parametric form for the function
 f that takes in
 *β*
-
-Assume a parametric form for f (B0+B1+…) Won’t match true unknown f Can
-add parameters= more flexibility Too many = overfitting
-
-Define mechanistic. Define empirically-driven. How do these model types
-differ? How are they similar?
-
-In general, is a mechanistic or empirically-driven model easier to
-understand? Explain your choice.
-
-Describe how the bias-variance tradeoff is related to the use of
-mechanistic or empirically-driven models
+predictors (
+*β*<sub>0</sub> + *β*<sub>1</sub> + ... + *β*<sub>*n*</sub>
+) in order to predict Y given a set of data points. It will likely not
+match the actual observed response, but the goal is to limit the error
+between these values. Although we can increase the flexibility of the
+model since we can add parameters to create a better fit; however, if
+there are too many, the data may be overfitted. In other words, the
+model may be too specific based on a given sample and cannot accurately
+predict other data samples (Lecture Two).  
+Empirically-driven models, on the other hand, do not make any
+assumptions about f. Instead, it requires a larger number of
+observations to predict the response. It is similar to a
+mechanistic-driven model since it is very flexible, clearly, as it is
+not restricted by assumptions. This method may also be in danger of
+overfitting based on your sample, also similar to mechanistic-driven
+models.  
+Generally speaking, mechanistic-driven models are easier to understand
+because it is not as flexible, and more restricted. This increased
+interpretability because it has a set of specific predictors that model
+the relationship between the predictor and the response, so it is easier
+to comment on how influential specific features of the model are.  
+The bias-variance tradeoff describes, generally, that as we use more
+flexible methods, the variance will increase and the bias will decrease.
+The reverse is also true (the less flexible, variance will decrease and
+bias will increase). Thus, mechanistic-driven models will tend to have
+less variance and greater bias and empirically-driven models will have
+greater variance and less bias(page 33-36 in An Introduction to
+Statistical Learning).
